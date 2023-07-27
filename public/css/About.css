@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+h1 {
+  font-size: 24px;
+  margin-top: 60px;
+  color: black;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: skyblue;
+}
+
+
+h2 {
+  font-size: 24px;
+  margin-top: 60px;
+  color: black;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* About Section Styles */
+.about {
+  background-color: #6289af;
+  padding: 50px 0;
+}
+
+.aboutTop {
+  height: 300px;
+  background-image: url('../images/ab.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutTop h1 {
+  font-size: 48px;
+  text-align: center;
+  color: black;
+}
+
+.aboutBottom {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.team-member {
+  margin-right: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 50%;
+}
